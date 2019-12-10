@@ -11,9 +11,9 @@
   <a href="#news">Station</a>
   <a href="#contact"><b><strong><span style="text-decoration: underline;">Hebergement</span></strong></b></a>
   <a href="#about">Search</a>
-  <div class="sign">
-<a href="#">Sign in</a>
-<a href="#">Sign Up</a>
+  <div class="contact">
+<a href="#">contacter</a>
+<a href="#">reserver</a>
   </div>
 </div>
 <br><br><h1 class="texte"><p><center><b><span style="text-decoration:underline overline;">voici quelques emplacements facil d'accés pour trouver un hébergement a proximité des stations de ski </b></p></center></h1></br></br>
