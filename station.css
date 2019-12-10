@@ -1,0 +1,51 @@
+body{
+  margin:auto;
+  
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: blue;
+  margin: auto;
+  display: block;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 2px solid;
+  border-right: 4px solid black;
+}
+
+.topnav a:hover {
+  background-color: #002393;
+
+}
+
+.sign{
+  float: right;
+}
+
+.carte{
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.imgheader {
+width: 100%
+height:auto;
+
+
+}
