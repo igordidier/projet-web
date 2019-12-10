@@ -1,12 +1,18 @@
 body{
   margin:auto;
-  background-image:url(img/back.jpg)
+  background-image:url(img/back.jpg);
 }
 
 h1{
   text-align: center;
   text-decoration: underline;
-  font-size: 25px;
+  background-color: blue;
+  margin: auto;
+}
+
+p{
+  color: white;
+  background-color: black;
 }
 
 .topnav {
@@ -35,6 +41,17 @@ h1{
 
 .sign{
   float: right;
+}
+
+.Titre{
+  font-size: 50px;
+  font-family: Gill Sans, sans-serif;
+}
+
+.texte{
+  background-color: grey;
+  font-size: 40px;
+  text-align: center;
 }
 
 .carte{
