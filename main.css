@@ -19,6 +19,7 @@ body{
   text-decoration: none;
   font-size: 17px;
   padding: 2px solid;
+  border-right: 4px solid black;
 }
 
 .topnav a:hover {
