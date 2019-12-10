@@ -19,8 +19,28 @@
   </div>
 </div>
 
-<p class="texte"> Ce site vous permettra de retrouver vos stations préferes, à proximitée de Grenoble.</br>
-   Vous retrouverez les spécifications des diffèrentes stations : leur altitude, affluence, prix...</p>
+<p class="texte"> voici les station préferer de Grenoble</p>
+
+<div class="containers">
+
+<a href="#"> <div class="container">
+    <img class="imgcont" src="img/chamrousse.jpg" alt="sunset park a chamrouse">
+<p style="font-size: 20px;margin: 0px;">Chamrouse</p>
+    <p style="margin: 0;font-size: 10px;">Belledonne</p>
+  </div>
+  </a>
+
+<a href="#">
+  <div class="container">
+    <img class="imgcont" src="img/7laux.jpg" alt="sunset park a chamrouse">
+<p style="font-size: 20px;margin: 0px;">Les 7 Laux</p>
+    <p style="margin: 0;font-size: 10px;">Belledonne</p>
+  </div>
+</a>
+
+</div>
+
+<p class="texte"> Choichisser un massif</p>
 
 
   </body>

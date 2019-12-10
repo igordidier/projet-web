@@ -50,7 +50,7 @@ height:auto;
 
 }
 .texte{
-  background-color: grey;
+  background-color: #002393;
   font-size: 40px;
   text-align: center;
   width: 1300px;
@@ -58,4 +58,34 @@ height:auto;
   padding: 12px;
   border-color: #FFFFFF;
   margin: auto;
+  margin-top: 0px;
+  color: white;
+}
+
+
+.containers{
+  display: flex;
+      justify-content: center;
+      margin:15px;
+}
+
+.container{
+text-align:center;
+border: 2px solid grey;
+width: 300px;
+padding: 15px;
+margin: 10px;
+text-decoration: none;
+
+}
+
+.container:hover{
+border: 2px solid black;
+
+}
+
+.imgcont{
+  height: 12vw;
+width: 250px;
+
 }
