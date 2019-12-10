@@ -1,5 +1,6 @@
 body{
   margin: auto;
+  background-color: #ADD8E6;
 }
 
 h1{
@@ -72,4 +73,8 @@ width: 100%
 height:auto;
 
 
+}
+
+.hautpage{
+  font-size: 25px;
 }
