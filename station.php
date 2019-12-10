@@ -6,7 +6,7 @@
     <title></title>
   </head>
   <body>
-    <img src="img/back.jpg"/>
+    <img src="ski.jpg"/>
     <div class="topnav">
   <a  href="#home">Acceuil</a>
   <a href="station.php">Station</a>
@@ -18,9 +18,8 @@
   </div>
 </div>
 
-<h1> <p> Bonjour! Bienvenue sur notre site de recherche de stations de ski, a proximitée de Grenoble! </p> </h1>
 
-<iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1E0pda5zh-4s-KZgunT7lPDkywmccz8Z4" width="640" height="480"></iframe>
+
 
   </body>
 </html>
