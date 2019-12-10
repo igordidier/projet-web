@@ -1,6 +1,6 @@
 body{
   margin:auto;
-  
+
 }
 
 h1{
@@ -48,4 +48,14 @@ width: 100%
 height:auto;
 
 
+}
+.texte{
+  background-color: grey;
+  font-size: 40px;
+  text-align: center;
+  width: 1300px;
+  border: 1px solid black;
+  padding: 12px;
+  border-color: #FFFFFF;
+  margin: auto;
 }
