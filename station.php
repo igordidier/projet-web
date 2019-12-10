@@ -19,7 +19,8 @@
   </div>
 </div>
 
-
+<p class="texte"> Ce site vous permettra de retrouver vos stations préferes, à proximitée de Grenoble.</br>
+   Vous retrouverez les spécifications des diffèrentes stations : leur altitude, affluence, prix...</p>
 
 
   </body>
