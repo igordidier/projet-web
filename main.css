@@ -6,7 +6,10 @@ body{
 h1{
   text-align: center;
   text-decoration: underline;
-  background-color: blue;
+  margin: auto;
+  width: 1700px;
+  padding: 12px;
+  border-color: #FFFFFF;
   margin: auto;
 }
 
@@ -52,6 +55,11 @@ p{
   background-color: grey;
   font-size: 40px;
   text-align: center;
+  width: 1300px;
+  border: 1px solid black;
+  padding: 12px;
+  border-color: #FFFFFF;
+  margin: auto;
 }
 
 .carte{
