@@ -10,7 +10,7 @@
 
     <div class="topnav">
   <a  href="index.html">Acceuil</a>
-  <a href="station.php">Station</a>
+  <a href="station.php">Stations</a>
   <a href="#contact">Hebergement</a>
   <a href="#about">Search</a>
   <div class="sign">
