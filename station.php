@@ -42,6 +42,5 @@
 
 <p class="texte"> ↑ Choisissez un massif ↑ </p>
 
-
   </body>
 </html>
