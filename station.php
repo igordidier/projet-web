@@ -9,9 +9,9 @@
   <body>
 
     <div class="topnav">
-  <a  href="index.html">Acceuil</a>
-  <a href="station.php">Stations</a>
-  <a href="#contact">Hebergement</a>
+  <a href="index.html">Acceuil</a>
+  <a href="station.php"><b><strong><span style="text-decoration: underline;">Stations</span></strong></b></a>
+  <a href="hebergement.php">Hebergements</a>
   <a href="#about">Search</a>
   <div class="sign">
 <a href="#">Sign in</a>
@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<p class="texte"> voici les station préferer de Grenoble</p>
+<p class="texte"> Voici les stations les plus populaires proche de Grenoble</p>
 
 <div class="containers">
 
@@ -40,7 +40,7 @@
 
 </div>
 
-<p class="texte"> ↑ Choisissez un massif ↑</p>
+<p class="texte"> ↑ Choisissez un massif ↑ </p>
 
 
   </body>

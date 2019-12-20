@@ -7,9 +7,9 @@
   </head>
   <body>
     <div class="topnav">
-  <a href="#home">Acceuil</a>
-  <a href="#news">Station</a>
-  <a href="#contact"><b><strong><span style="text-decoration: underline;">Hebergements</span></strong></b></a>
+  <a href="index.html">Acceuil</a>
+  <a href="station.php">Stations</a>
+  <a href="hebergement.php"><b><strong><span style="text-decoration: underline;">Hebergements</span></strong></b></a>
   <a href="#about">Search</a>
   <div class="contact">
 <a href="#">contacter</a>
