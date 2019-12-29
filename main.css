@@ -1,6 +1,7 @@
 body{
   margin: auto;
   background-color: #ADD8E6;
+  background-image: url(img/skis.jpg);
 }
 
 h1{
@@ -52,12 +53,16 @@ footer{
 
 .Titre{
   font-size: 50px;
-  font-family: Gill Sans, sans-serif;
+  font-family: Georgia, sans-serif;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: purple;
 }
 
 .texte{
   background-color: grey;
   font-size: 40px;
+  font-family: Georgia, sans-serif;
   text-align: center;
   width: 1300px;
   border: 1px solid black;
