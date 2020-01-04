@@ -1,6 +1,5 @@
 body{
   margin:auto;
-
 }
 
 h1{
@@ -62,6 +61,20 @@ height:auto;
   color: white;
 }
 
+.texte_description{
+  background-color: grey;
+  font-size: 30px;
+  text-align: justify;
+  width: 1300px;
+  border: 1px solid black;
+  padding: 12px;
+  border-color: #FFFFFF;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
 
 .containers{
   display: flex;
@@ -88,4 +101,13 @@ border: 2px solid black;
   height: 12vw;
 width: 250px;
 
+}
+
+.image{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+    width: 700px;
+    height: 700px;
+  border: 2px solid red;
 }
