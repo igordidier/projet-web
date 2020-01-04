@@ -48,7 +48,7 @@ Nombre de Remontées : 20.
 </p>
 
 <div class="image">
-    <img class="image" src="img/prix_chamrousse.png" alt="sunset park a chamrousse">
+    <img class="image" src="img/prix_chamrousse.png" alt="Tarifs_forfait_chamrousse">
 
   </div>
 </div>

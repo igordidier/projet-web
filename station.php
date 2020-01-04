@@ -30,7 +30,7 @@
   </div>
   </a>
 
-<a href="#">
+<a href="7_Laux.php">
   <div class="container">
     <img class="imgcont" src="img/7laux.jpg" alt="7 laux">
 <p style="font-size: 20px;margin: 0px;">Les 7 Laux</p>
