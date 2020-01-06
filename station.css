@@ -8,6 +8,14 @@ h1{
   font-size: 25px;
 }
 
+footer{
+  text-align: center;
+  width: 450px;
+  font-size: 20px;
+  margin: auto;
+  padding: 15px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: blue;
@@ -92,6 +100,11 @@ text-decoration: none;
 
 }
 
+.hautpage{
+  text-align: center;
+  font-size: 25px;
+}
+
 .container:hover{
 border: 2px solid black;
 
@@ -110,4 +123,10 @@ width: 250px;
     width: 700px;
     height: 700px;
   border: 2px solid red;
+}
+
+.retour{
+float: left;
+opacity: 1;
+
 }

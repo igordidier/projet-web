@@ -9,6 +9,7 @@
   <body>
 
     <div class="topnav">
+      <h1 id ="haut-de-page"></h1>
   <a href="index.html">Acceuil</a>
   <a href="station.php"><b><strong><span style="text-decoration: underline;">Stations</span></strong></b></a>
   <a href="hebergement.php">Hebergements</a>
@@ -19,7 +20,15 @@
   </div>
 </div>
 
-<p class="texte"><u>Stations des 7 Laux</u></p>
+<div class="texte">
+  <u>Stations des 7 Laux</u>
+<div class="retour">
+
+  <a href="station.php" style=" text-decoration: none; color: white; ">←Retour</a>
+
+</div>
+
+</div>
 
 <div class="containers">
 
@@ -52,6 +61,9 @@ Nombre de Remontées : 22.
   </div>
 </div>
 
+<footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
+  <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
+</footer>
 
 
   </body>
