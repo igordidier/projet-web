@@ -4,8 +4,8 @@
 <a href="station.php"><span>Stations</span></a>
 <a href="hebergement.php">Hebergements</a>
 <form action="search.php">
-    <input type="text" placeholder="Search.." name="search">
-    <button type="submit"><i class="fa fa-search"></i></button>
+    <input type="text" placeholder="Search.." name="search" style="padding: 15px;width: 170px;">
+    <button type="submit" style="padding: 6px;width: 80px;height: 30px;"><i class="fa fa-search"></i>Rechercher</button>
   </form>
 <?php
 include('server.php');
