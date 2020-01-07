@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="station.css">
-    <title>Stations des 7 Laux</title>
+    <title>Station de st pierre</title>
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
