@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <input type="text" name="search" value="" placeholder="rechercher">
+    <input type="text" placeholder="Search.." name="search" style="padding: 13px;width: 170px;">
 
   </body>
 </html>
