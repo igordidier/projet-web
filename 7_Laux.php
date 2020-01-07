@@ -59,6 +59,9 @@ Nombre de Remontées : 22.
     <img class="image" src="img/prix_7laux.png" alt="Tarifs_forfait_7laux">
 
   </div>
+
+  <p class="texte_description"> Localisation de la Station (Google Maps): </p>
+    <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1edAAWFPsZH_KGz0RD6sh9UEIKWk_jg4W" width="1100" height="680"></iframe>
 </div>
 
 <footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
