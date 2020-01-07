@@ -11,7 +11,8 @@ include('server.php');
   <?php
 if (isset($_SESSION['email'])) {
   echo "
-     Welcome $_SESSION[nom]";}
+     Welcome $_SESSION[nom]";
+   echo '<a href="logout.php">log out</a>';}
      else {
        echo '<a href="signin.php">sign in</a>';
        echo '<a href="login.php">log in</a>';
