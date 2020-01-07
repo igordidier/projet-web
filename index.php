@@ -6,17 +6,7 @@
     <title>Stations de Ski</title>
   </head>
   <body>
-    <div class="topnav">
-  <h1 id ="haut-de-page"></h1>
-  <a href="#index.html"><b><strong><span style="text-decoration: underline;">Acceuil</span></strong></b></a>
-  <a href="station.php">Stations</a>
-  <a href="hebergement.php">Hebergements</a>
-  <a href="#about">Search</a>
-  <div class="contact">
-<a href="#">Contacter</a>
-<a href="#">Reserver</a>
-  </div>
-</div>
+<?php include('head.php'); ?>
 
 <h2> <p class="Titre"> Bonjour! Bienvenue sur notre site de recherche de stations de ski, a proximitée de Grenoble! </p> </h2>
   <p class="texte"> Ce site vous permettra de retrouver vos stations préferées, à proximitée de Grenoble.</br>

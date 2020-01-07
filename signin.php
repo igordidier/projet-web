@@ -1,13 +1,13 @@
-<?php
-include('server.php');
- ?>
+
  <!DOCTYPE html>
  <html lang="fr" dir="ltr">
    <head>
      <meta charset="utf-8">
      <title>Sign In</title>
+     <link rel="stylesheet" href="/css/station.css">
    </head>
    <body>
+     <?php include('head.php'); ?>
      <form class="signin" action="" method="post">
        <label for="NOM">Nom</label>
        <input type="text" name="nom" value="" required>
