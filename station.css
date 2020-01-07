@@ -160,3 +160,20 @@ opacity: 1;
     margin-top: 25px;
     border-radius: 50px;
 }
+
+.profile{
+  text-align: center;
+      width: 300px;
+      margin: auto;
+      border: 2px solid;
+      border-radius: 25px;
+      margin-top: 20px;
+
+}
+.hidden>div {
+	display:none;
+}
+
+.visible>div {
+	display:block;
+}

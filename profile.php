@@ -11,47 +11,56 @@
   </head>
   <body>
 
-<?php
-    if (isset($_POST['modifier_compte'])) {
 
-        if ($_POST['mdp'] == $_POST['confirm_mdp']) {
+<div class="profile">
 
-            // isset($_POST['autre_login'] => gestion d'un autre compte, sinon gestion de notre compte
-            $login = (isset($_POST['autre_login']) ? $_POST['autre_login'] : $_SESSION['login']);
-            $admin = (isset($_POST['admin'])) ? 1 : 0;
-            $mdp = (isset($_SESSION['mdp']) AND $_SESSION['mdp'] == $_POST['mdp']) ? $_POST['mdp'] : sha1($_POST['mdp']);
+  <h1><?php echo ucfirst("$_SESSION[nom]"); ?></h1>
 
-            $requete =
-                "UPDATE COMPTE SET NOM='" . $_POST['nom'] . "',
-                PRENOM='" . $_POST['prenom'] . "',
-                EMAIL='" . $_POST['email'] . "',
-                MDP='" . $mdp . "',
-                ISADMIN='" . $admin . "'
-                WHERE LOGIN='$login'";
+<h2>Information du compte:</h2>
+<br>
+<p>Email: <?php echo "$_SESSION[email]"; ?></p>
+<br>
 
-            echo $requete . "<br/>";
-            $connexion = connexionSQL();
-            $res = executerRequete($connexion, $requete);
+<p>Nom: <?php echo "$_SESSION[nom]"; ?></p>
+<br>
 
-            if (!$res) {
-                $msg="Erreur lors de la modification du compte<br/>";
-                $connexion->close();
-            } else {
-                if (!isset($_POST['autre_login'])) {
-                    $_SESSION['nom'] = $_POST['nom'];
-                    $_SESSION['prenom'] = $_POST['prenom'];
-                    $_SESSION['email'] = $_POST['email'];
-                    $_SESSION['mdp'] = sha1($_POST['mdp']);
-                    $_SESSION['confirm_mdp'] = sha1($_POST['confirm_mdp']);
-                    $_SESSION['admin'] = isset($_POST['admin']);
-                }
-                $connexion->close();
-                $msg="Mise à jour prise en compte<br/>";
-            }
-        } else {
-            $msg="Les mots de passe ne correspondent pas<br/>";
-        }
-    }
-?>
+<p>Prenom: <?php echo "$_SESSION[prenom]"; ?></p>
+
+
+
+<form id="mofif" action="" method="post">
+  <label for="NOM">Nom</label>
+  <input type="text" name="nom" value="" required>
+  <br>
+  <br>
+  <label for="PRENOM">Prenom</label>
+  <input type="text" name="prenom" value="" required>
+  <br>
+  <br>
+  <label for="EMAIL">Email</label>
+  <input type="text" name="email" value="" required>
+  <br>
+  <br>
+  <label for="mdp">Password</label>
+  <input type="password" name="mdp" value="" required>
+  <br>
+  <br>
+  <label for="mdpconfirm">Confirm Password</label>
+  <input type="password" name="confirm_mdp" value="" required>
+  <br>
+  <br>
+  <input type="submit" name="modifier_compte" value="Modifié" style="
+      border-radius: 25px;
+      background-color: rgb(0, 149, 255);
+      font-size: 25;
+      font-family: fantasy;
+  ">
+</form>
+
+
+</div>
+
+
+
   </body>
 </html>

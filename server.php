@@ -19,7 +19,7 @@ if (isset($_POST['creer_compte'])) {
                 // champ non disabled dans ce cas là, $_POST['login'] existe alors
                 $requete = "INSERT INTO COMPTE (ID,NOM,PRENOM,EMAIL,MDP)
                           VALUES(NULL,'" . $_POST['nom'] . "','" . $_POST['prenom'] . "','" . $_POST['email'] . "','" . sha1($_POST['mdp']) . "')";
-                
+
                 $res = executerRequete($conn, $requete);
 
                 if (!$res) {
@@ -41,5 +41,22 @@ if (isset($_POST['creer_compte'])) {
         }
 
    }
+
+//modif profile
+
+if (isset($_POST['modifier_compte'])) {
+
+      if ($_POST['mdp'] == $_POST['confirm_mdp']) {
+
+          $requete ="UPDATE COMPTE SET NOM='" . $_POST['nom'] . "',
+              PRENOM='" . $_POST['prenom'] . "',
+              EMAIL='" . $_POST['email'] . "',
+              MDP='" . sha1($_POST['mdp']) . "';";
+
+          echo $requete . "<br/>";
+          $connexion = connexionSQL();
+          $res = executerRequete($connexion, $requete);
+}
+}
 
  ?>
