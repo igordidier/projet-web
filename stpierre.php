@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="station.css">
-    <title>saint pierre</title>
+    <title>Saint Pierre de Chartreuse</title>
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
@@ -21,7 +21,7 @@
 </div>
 
 <div class="texte">
-  <u>Stations de saint Pierre</u>
+  <u>Station de Saint Pierre de Chartreuse</u>
 <div class="retour">
 
   <a href="station.php" style=" text-decoration: none; color: white; ">←Retour</a>
@@ -34,7 +34,7 @@
 
 <a href="#"> <div class="container">
     <img class="imgcont" src="img/stpierre.jpg" alt="park saint Pierre">
-<p style="font-size: 20px;margin: 0px;">saint Pierre</p>
+<p style="font-size: 20px;margin: 0px;">Saint Pierre</p>
     <p style="margin: 0;font-size: 10px;">Chartreuse</p>
   </div>
   </a>
@@ -42,7 +42,8 @@
 </div>
 
 <p class="texte_description">
-  Saint Pierre de Chartreuse, située à 1345m d’altitude en Isère, propose un domaine skiable de 35km. Nos lecteurs ont partagé 58 avis sur Saint Pierre de Chartreuse avec une note moyenne de 4,1. Pour préparer votre séjour, consultez les prévisions météo-neige, le plan des pistes, les photos live, les webcams et l’actualité de la station.
+  Saint Pierre de Chartreuse, située à 1345m d’altitude en Isère, propose un domaine skiable de 35km. Nos lecteurs ont partagé 58 avis sur Saint Pierre de Chartreuse avec une note moyenne de 4,1.
+  A 30 min de Grenoble, Chambéry et Voiron.
 </p>
 
 <p class="texte_description">
@@ -53,12 +54,12 @@ Nombre de Remontées : 10.
   Tarifs des differents forfaits disponibles : ↓↓↓ (Source : <a href="https://www.ski-alpin-chartreuse.com/tarifs" target="_blank"> https://www.saint_pierre.com</a>)
 </p>
 
-<div class="image">
-    <img class="image" src="img/stspierre.png" alt="Tarifs_forfait_saint Pierre">
+<div class="image4">
+    <img class="image4" src="img/prix_stpierre.png" alt="Tarifs_forfait_saint Pierre">
 
   </div>
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
-  <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=19xO0W-rQ7zBh21P4TrreZdw669XrKA8k" width="1100" height="680"></iframe>
+  <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1xvj0vl4U8xjjFL9p3bPWp3SnnwgBEpP4" width="1100" height="680"></iframe>
 
 
 <footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
