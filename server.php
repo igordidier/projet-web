@@ -3,26 +3,7 @@
 session_start();
 include('fonctions.php');
 
-// $email    = "";
-// $prenom     = "";
-// $nom     ="";
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-//
-// try {
-//     $conn = new PDO("mysql:host=$servername;dbname=projet", $username, $password);
-//     // set the PDO error mode to exception
-//     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//
-//     }
-// catch(PDOException $e)
-//     {
-//     echo "Connection failed: " . $e->getMessage();
-//     }
-//
-//     // On retourne la connexion
-//   //  return $conn;
+
 
 if (isset($_POST['creer_compte'])) {
 
@@ -51,7 +32,7 @@ if (isset($_POST['creer_compte'])) {
                     $_SESSION['email'] = $_POST['email'];
                     $_SESSION['mdp'] = sha1($_POST['mdp']);
                     $_SESSION['confirm_mdp'] = sha1($_POST['confirm_mdp']);
-                
+
 
                 }
             } else {
