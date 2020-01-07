@@ -8,9 +8,13 @@ h1{
   text-align: center;
   text-decoration: underline;
   margin: auto;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+  margin: auto;
   width: 1700px;
 }
-
 p{
   color: white;
   background-color: black;
@@ -52,11 +56,11 @@ footer{
 }
 
 .Titre{
-  font-size: 50px;
+  font-size: 35px;
   font-family: Georgia, sans-serif;
   text-decoration: underline;
   font-style: italic;
-  background-color: purple;
+  background-color: #3361FF;
 }
 
 .texte{
