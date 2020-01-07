@@ -18,7 +18,7 @@ if (isset($_POST['creer_compte'])) {
 
                 // champ non disabled dans ce cas là, $_POST['login'] existe alors
                 $requete = "INSERT INTO COMPTE (ID,NOM,PRENOM,EMAIL,MDP)
-                          VALUES(NULL,'" . $_POST['nom'] . "','" . $_POST['prenom'] . "','" . $_POST['email'] . "','" . $_POST['mdp'] . "')";
+                          VALUES(NULL,'" . $_POST['nom'] . "','" . $_POST['prenom'] . "','" . $_POST['email'] . "','" . sha1($_POST['mdp']) . "')";
                 echo $requete . "<br/>";
                 $res = executerRequete($conn, $requete);
 

@@ -1,13 +1,4 @@
 ﻿<?php
-function deconnect() {
-    $_SESSION = array();
-    if (isset($_COOKIE[session_name()])) {
-        setcookie(session_name(),'',time()-1000,'/');
-    }
-    session_destroy();
-    header('Location: ./connexion.php');
-}
-
 function valueInputType($name) {
     if (isset($_POST["$name"])) echo htmlspecialchars($_POST["$name"]);
     elseif (isset($_SESSION["$name"])) echo htmlspecialchars($_SESSION["$name"]);

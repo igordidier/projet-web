@@ -149,3 +149,13 @@ float: left;
 opacity: 1;
 
 }
+
+.signin {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid;
+    margin-top: 25px;
+    border-radius: 50px;
+}
