@@ -33,12 +33,13 @@ if (isset($_POST['creer_compte'])) {
                     $_SESSION['mdp'] = sha1($_POST['mdp']);
                     $_SESSION['confirm_mdp'] = sha1($_POST['confirm_mdp']);
 
-
+                      $msg="Bienvenue ton compte a bien été crée!";
                 }
             } else {
                 $msg="Les mots de passe ne correspondent pas<br/>";
             }
         }
+        
    }
 
  ?>

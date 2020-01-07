@@ -1,6 +1,4 @@
-<?php
-include('server.php');
-?>
+
 <div class="topnav">
  <h1 id ="haut-de-page"></h1>
 <a href="index.php">Acceuil</a>
@@ -21,3 +19,7 @@ if (isset($_SESSION['email'])) {
      ?>
   </div>
   </div>
+
+  <?php
+  include('server.php');
+  ?>

@@ -34,11 +34,13 @@
        <input type="submit" name="creer_compte" value="Crée">
      </form>
 <br>
-
+<?php
+if (isset($msg)) echo "<div style='color:white;text-align:center;background-color: green;width: 300px;margin: auto;border: 2px solid;border-radius: 25px;margin-top: 15px;'>$msg</div>";
+?>
 <br>
 <br>
 
-<?php if (isset($_POST['nom'])) {echo " Bienvenue ton compte a bien été crée!";}  ?>
+
 
 <footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
 
