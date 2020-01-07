@@ -6,7 +6,10 @@ include('server.php');
 <a href="index.php">Acceuil</a>
 <a href="station.php"><b><strong><span >Stations</span></strong></b></a>
 <a href="hebergement.php">Hebergements</a>
-<a href="search.php">Search</a>
+<form action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
 
 <div class="sign">
   <?php
