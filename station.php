@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -8,17 +9,7 @@
   </head>
   <body>
 
-    <div class="topnav">
-      <h1 id ="haut-de-page"></h1>
-  <a href="index.html">Acceuil</a>
-  <a href="station.php"><b><strong><span style="text-decoration: underline;">Stations</span></strong></b></a>
-  <a href="hebergement.php">Hebergements</a>
-  <a href="#about">Search</a>
-  <div class="sign">
-<a href="#">Contacter</a>
-<a href="#">Reserver</a>
-  </div>
-</div>
+<?php include('head.php'); ?>
 
 <p class="texte"> Voici les stations les plus populaires proche de Grenoble</p>
 
