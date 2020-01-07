@@ -30,72 +30,64 @@
     </div>
   </a>
 
+  <a href="2alpes.php">
+    <div class="container">
+      <img class="imgcont" src="img/2alpes.jpg" alt="station les 2 alpes">
+  <p style="font-size: 20px;margin: 0px;">Les Deux Alpes</p>
+      <p style="margin: 0;font-size: 10px;">Oisans</p>
+    </div>
+  </a>
+
+  <a href="alpe.php">
+    <div class="container">
+      <img class="imgcont" src="img/alpe.jpg" alt="station Alpe d'Huez">
+  <p style="font-size: 20px;margin: 0px;">Alpe D'huez</p>
+      <p style="margin: 0;font-size: 10px;">Oisans</p>
+    </div>
+  </a>
+
+  <a href="villard.php">
+    <div class="container">
+      <img class="imgcont" src="img/villard.jpg" alt="station Villard de lans">
+  <p style="font-size: 20px;margin: 0px;">Villard de lans</p>
+      <p style="margin: 0;font-size: 10px;">Vercors</p>
+    </div>
+  </a>
+
+  <a href="lans.php">
+    <div class="container">
+      <img class="imgcont" src="img/lans.jpg" alt="station lans en vercor">
+  <p style="font-size: 20px;margin: 0px;">Lans en vercors</p>
+      <p style="margin: 0;font-size: 10px;">Vercors</p>
+    </div>
+  </a>
+
+  <a href="meaudre.php">
+    <div class="container">
+      <img class="imgcont" src="img/meaudre.jpg" alt="station Meaudre">
+  <p style="font-size: 20px;margin: 0px;">Meaudre</p>
+      <p style="margin: 0;font-size: 10px;">Vercors</p>
+    </div>
+  </a>
+  <a href="c2p.php">
+    <div class="container">
+      <img class="imgcont" src="img/c2p.jpg" alt="station Col De porte">
+  <p style="font-size: 20px;margin: 0px;">Col de Porte</p>
+      <p style="margin: 0;font-size: 10px;">Chartreuse</p>
+    </div>
+  </a>
+
+  <a href="stpierre.php">
+    <div class="container">
+      <img class="imgcont" src="img/stpierre.jpg" alt="station Saint Pierre">
+  <p style="font-size: 20px;margin: 0px;">Saint Pierre</p>
+      <p style="margin: 0;font-size: 10px;">Chartreuse</p>
+    </div>
+  </a>
+
 </div>
 
 <p class="texte"> ↑ Choisissez un massif ↑ </p>
-
-<div class="containers">
-
-
-<a href="2alpes.php">
-  <div class="container">
-    <img class="imgcont" src="img/2alpes.jpg" alt="station les 2 alpes">
-<p style="font-size: 20px;margin: 0px;">Les Deux Alpes</p>
-    <p style="margin: 0;font-size: 10px;">Oisans</p>
-  </div>
-</a>
-
-<a href="alpe.php">
-  <div class="container">
-    <img class="imgcont" src="img/alpe.jpg" alt="station Alpe d'Huez">
-<p style="font-size: 20px;margin: 0px;">Alpe D'huez</p>
-    <p style="margin: 0;font-size: 10px;">Oisans</p>
-  </div>
-</a>
-
-<a href="villard.php">
-  <div class="container">
-    <img class="imgcont" src="img/villard.jpg" alt="station Villard de lans">
-<p style="font-size: 20px;margin: 0px;">Villard de lans</p>
-    <p style="margin: 0;font-size: 10px;">Vercors</p>
-  </div>
-</a>
-
-<a href="lans.php">
-  <div class="container">
-    <img class="imgcont" src="img/lans.jpg" alt="station lans en vercor">
-<p style="font-size: 20px;margin: 0px;">Lans en vercors</p>
-    <p style="margin: 0;font-size: 10px;">Vercors</p>
-  </div>
-</a>
-
-<a href="meaudre.php">
-  <div class="container">
-    <img class="imgcont" src="img/meaudre.jpg" alt="station Meaudre">
-<p style="font-size: 20px;margin: 0px;">Meaudre</p>
-    <p style="margin: 0;font-size: 10px;">Vercors</p>
-  </div>
-</a>
-<a href="c2p.php">
-  <div class="container">
-    <img class="imgcont" src="img/c2p.jpg" alt="station Col De porte">
-<p style="font-size: 20px;margin: 0px;">Col de Porte</p>
-    <p style="margin: 0;font-size: 10px;">Chartreuse</p>
-  </div>
-</a>
-
-<a href="stpierre.php">
-  <div class="container">
-    <img class="imgcont" src="img/stpierre.jpg" alt="station Saint Pierre">
-<p style="font-size: 20px;margin: 0px;">Sainte Pieree</p>
-    <p style="margin: 0;font-size: 10px;">Chartreuse</p>
-  </div>
-</a>
-
-</div>
-
-
-
 
 <footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
   <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
