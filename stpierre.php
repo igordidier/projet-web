@@ -54,7 +54,7 @@ Nombre de Remontées : 10.
 </p>
 
 <div class="image">
-    <img class="image" src="img/prix_chamrousse.png" alt="Tarifs_forfait_saint Pierre">
+    <img class="image" src="img/stspierre.png" alt="Tarifs_forfait_saint Pierre">
 
   </div>
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
