@@ -34,7 +34,7 @@
 
 <a href="#"> <div class="container">
     <img class="imgcont" src="img/stpierre.jpg" alt="st_pierre">
-<p style="font-size: 20px;margin: 0px;">Les 7 Laux</p>
+<p style="font-size: 20px;margin: 0px;">st pierre</p>
     <p style="margin: 0;font-size: 10px;">Belledonne</p>
   </div>
   </a>
