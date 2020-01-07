@@ -1,16 +1,15 @@
-<?php
-include('server.php');
-?>
 <div class="topnav">
  <h1 id ="haut-de-page"></h1>
 <a href="index.php">Acceuil</a>
-<a href="station.php"><b><strong><span >Stations</span></strong></b></a>
+<a href="station.php"><span>Stations</span></a>
 <a href="hebergement.php">Hebergements</a>
 <form action="search.php">
     <input type="text" placeholder="Search.." name="search">
     <button type="submit"><i class="fa fa-search"></i></button>
   </form>
-
+<?php
+include('server.php');
+?>
 <div class="sign">
   <?php
 if (isset($_SESSION['email'])) {
