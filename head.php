@@ -6,6 +6,7 @@ include('server.php');
 <a href="index.php">Acceuil</a>
 <a href="station.php"><b><strong><span >Stations</span></strong></b></a>
 <a href="hebergement.php">Hebergements</a>
+<a href="search.php">Search</a>
 
 <div class="sign">
   <?php
