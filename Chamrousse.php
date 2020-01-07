@@ -21,7 +21,7 @@
 </div>
 
 <div class="texte">
-  <u>Stations des 7 Laux</u>
+  <u>Stations de Chamrousse</u>
 <div class="retour">
 
   <a href="station.php" style=" text-decoration: none; color: white; ">←Retour</a>
@@ -60,7 +60,9 @@ Nombre de Remontées : 20.
     <img class="image" src="img/prix_chamrousse.png" alt="Tarifs_forfait_chamrousse">
 
   </div>
-</div>
+<p class="texte_description"> Localisation de la Station (Google Maps): </p>
+  <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=19xO0W-rQ7zBh21P4TrreZdw669XrKA8k" width="1100" height="680"></iframe>
+
 
 <footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
   <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
