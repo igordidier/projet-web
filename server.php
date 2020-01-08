@@ -40,7 +40,7 @@ if (isset($_POST['creer_compte'])) {
             }
         }
 
-   }
+   } 
 
 //modif profile
 

@@ -32,6 +32,7 @@
        <br>
        <br>
        <input type="submit" name="creer_compte" value="Crée">
+       <p> Déja un compte? <a href="login.php">Connectez vous!</a> </p>
      </form>
 <br>
 <?php

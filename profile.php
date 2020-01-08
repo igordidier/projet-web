@@ -1,4 +1,17 @@
 <?php include('head.php'); ?>
+<?php
+
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "il Faut d'abord crée un compte";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: login.php");
+  }
+?>
 
 <!DOCTYPE html>
 <html lang="" dir="ltr">
