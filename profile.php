@@ -76,17 +76,16 @@ $( "button" ).click(function() {
       background-color: rgb(0, 149, 255);
       font-size: 25;
       font-family: fantasy;
+      margin: : 10px;
   ">
 </form>
 
 
 
-
-
-
-
 </div>
-
+<?php
+if (isset($msg2)) echo "<div style='color:white;text-align:center;background-color: red;width: 300px;margin: auto;border: 2px solid;border-radius: 25px;margin-top: 15px;'>$msg2</div>";
+?>
 
 <footer> <p>Copyright <a href="https://www.instagram.com/juniorniasse/"style="text-decoration: none;">Dame Niasse</a>,<a href="https://www.facebook.com/louis.nardini.1"style="text-decoration: none;">Louis Nardini</a> ,  <a href="https://www.instagram.com/igor_recap/" style="text-decoration: none;">Igor Didier</a></p>
   <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>

@@ -44,20 +44,32 @@ if (isset($_POST['creer_compte'])) {
 
 //modif profile
 
+
 if (isset($_POST['modifier_compte'])) {
+
 
       if ($_POST['mdp'] == $_POST['confirm_mdp']) {
 
           $requete ="UPDATE COMPTE SET NOM='" . $_POST['nom'] . "',
               PRENOM='" . $_POST['prenom'] . "',
               EMAIL='" . $_POST['email'] . "',
-              MDP='" . sha1($_POST['mdp']) . "',
+              MDP='" . sha1($_POST['mdp']) . "'
               where EMAIL = '" . $_SESSION['email'] . "' ";
 
-          echo $requete . "<br/>";
+        
           $connexion = connexionSQL();
           $res = executerRequete($connexion, $requete);
-}
+
+          $_SESSION['nom'] = $_POST['nom'];
+          $_SESSION['prenom'] = $_POST['prenom'];
+          $_SESSION['email'] = $_POST['email'];
+          $_SESSION['mdp'] = sha1($_POST['mdp']);
+          $_SESSION['confirm_mdp'] = sha1($_POST['confirm_mdp']);
+          $msg2="<div style='background-color: green;'> ton compte a bien été Modifié!</div>";
+
+}else {
+    $msg2="Les mots de passe ne correspondent pas<br/>";
 }
 
+}
  ?>
