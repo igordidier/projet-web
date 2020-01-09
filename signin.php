@@ -32,10 +32,11 @@
        <br>
        <br>
        <input type="submit" name="creer_compte" value="Crée">
+       <p> Déja un compte? <a href="login.php">Connectez vous!</a> </p>
      </form>
 <br>
 <?php
-if (isset($msg)) echo "<div style='color:white;text-align:center;background-color: green;width: 300px;margin: auto;border: 2px solid;border-radius: 25px;margin-top: 15px;'>$msg</div>";
+if (isset($msg)) echo "<div style='color:white;text-align:center;background-color: red;width: 300px;margin: auto;border: 2px solid;border-radius: 25px;margin-top: 15px;'>$msg</div>";
 ?>
 <br>
 <br>

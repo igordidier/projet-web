@@ -61,6 +61,8 @@
             </tr>
         </table>
         <input type="submit" name="connect" value="Connexion">
+			 <p> Pas encore de compte? <a href="signin.php">Crée le!</a> </p>
+
     </form>
 
 
