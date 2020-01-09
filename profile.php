@@ -4,7 +4,7 @@
 
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "il Faut d'abord crée un compte";
-  	header('location: login.php');
+
   }
   if (isset($_GET['logout'])) {
   	session_destroy();
@@ -20,9 +20,11 @@
     <title>Search</title>
     <link rel="shortcut icon" href="fav.jpg">
     <meta charset="utf-8">
-    <title></title>
+    <title>Profile <?php echo ucfirst("$_SESSION[nom]"); ?></title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
   <body>
+
 
 
 <div class="profile">
@@ -39,9 +41,16 @@
 
 <p>Prenom: <?php echo "$_SESSION[prenom]"; ?></p>
 
+<button style="border-radius: 25px;background-color: rgb(0, 149, 255);font-size: 20;font-family: fantasy;">Modifiéle profile</button>
 
 
-<form id="mofif" action="" method="post">
+<script>
+$( "button" ).click(function() {
+  $( "#motif" ).show( "slow" );
+});
+</script>
+
+<form id="motif" action="" method="post" style="display: none">
   <label for="NOM">Nom</label>
   <input type="text" name="nom" value="" required>
   <br>
@@ -69,6 +78,11 @@
       font-family: fantasy;
   ">
 </form>
+
+
+
+
+
 
 
 </div>

@@ -40,7 +40,7 @@ if (isset($_POST['creer_compte'])) {
             }
         }
 
-   } 
+   }
 
 //modif profile
 
@@ -51,7 +51,8 @@ if (isset($_POST['modifier_compte'])) {
           $requete ="UPDATE COMPTE SET NOM='" . $_POST['nom'] . "',
               PRENOM='" . $_POST['prenom'] . "',
               EMAIL='" . $_POST['email'] . "',
-              MDP='" . sha1($_POST['mdp']) . "';";
+              MDP='" . sha1($_POST['mdp']) . "',
+              where EMAIL = '" . $_SESSION['email'] . "' ";
 
           echo $requete . "<br/>";
           $connexion = connexionSQL();
