@@ -9,7 +9,7 @@
    <body>
      <?php include('head.php'); ?>
 
-     <h1>Crée Votre Compte: </h1>
+     <h1>Créez Votre Compte: </h1>
      <form class="signin" action="" method="post">
        <label for="NOM">Nom</label>
        <input type="text" name="nom" value="" required>
