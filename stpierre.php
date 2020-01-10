@@ -54,7 +54,7 @@ Nombre de Remontées : 10.
   <br>
   <br>
 
-  <h1>Laisser un aviz sur la station</h1>
+  <h1>Laissez un avis sur la station</h1>
 
   <?php
   if (isset($_SESSION['email'])) {
@@ -87,9 +87,9 @@ Nombre de Remontées : 10.
           <h1 id="commentaire"></h1>
           <?php  include "comment/commentsstpierre.html"; ?>
 
-<footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
-  <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
-</footer>
+  <footer> <p>Copyright <a href="https://www.instagram.com/juniorniasse/"style="text-decoration: none;">Dame Niasse</a>,<a href="https://www.facebook.com/louis.nardini.1"style="text-decoration: none;">Louis Nardini</a> ,  <a href="https://www.instagram.com/igor_recap/" style="text-decoration: none;">Igor Didier</a></p>
+    <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
+  </footer>
 
 
   </body>

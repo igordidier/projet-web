@@ -15,7 +15,7 @@
 
 <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1E0pda5zh-4s-KZgunT7lPDkywmccz8Z4" width="800" height="600"></iframe></br>
 
-<footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
+<footer> <p>Copyright <a href="https://www.instagram.com/juniorniasse/"style="text-decoration: none;">Dame Niasse</a>,<a href="https://www.facebook.com/louis.nardini.1"style="text-decoration: none;">Louis Nardini</a> ,  <a href="https://www.instagram.com/igor_recap/" style="text-decoration: none;">Igor Didier</a></p>
   <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
 </footer>
   </body>

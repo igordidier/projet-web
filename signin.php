@@ -9,7 +9,7 @@
    <body>
      <?php include('head.php'); ?>
 
-     <h1>Crée Votre Compte: </h1>
+     <h1>Créez Votre Compte: </h1>
      <form class="signin" action="" method="post">
        <label for="NOM">Nom</label>
        <input type="text" name="nom" value="" required>
@@ -42,9 +42,9 @@ if (isset($msg)) echo "<div style='color:white;text-align:center;background-colo
 <br>
 
 
-
-<footer> <p>Copyright Dame Niasse, Louis Nardini, Igor Didier</p>
-
+<footer> <p>Copyright <a href="https://www.instagram.com/juniorniasse/"style="text-decoration: none;">Dame Niasse</a>,<a href="https://www.facebook.com/louis.nardini.1"style="text-decoration: none;">Louis Nardini</a> ,  <a href="https://www.instagram.com/igor_recap/" style="text-decoration: none;">Igor Didier</a></p>
+  <div class="hautpage"><a href="#haut-de-page">Retour vers le Haut de la page</br></a></div>
+</footer>
 </footer>
 
    </body>

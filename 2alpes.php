@@ -56,7 +56,7 @@ Nombre de Remontées : 51.
 <br>
 <br>
 
-<h1>Laisser un aviz sur la station</h1>
+<h1>Laissez un avis sur la station</h1>
 
 <?php
 if (isset($_SESSION['email'])) {
