@@ -13,7 +13,7 @@ h2{
   text-align: center;
   text-decoration: underline;
   margin: auto;
-  width: 1400px;
+
 }
 p{
   color: white;
@@ -74,7 +74,7 @@ float: left;
   font-size: 40px;
   font-family: Georgia, sans-serif;
   text-align: center;
-  width: 1300px;
+  
   border: 1px solid black;
   padding: 12px;
   border-color: #FFFFFF;
