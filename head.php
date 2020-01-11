@@ -1,3 +1,4 @@
+<!-- Script pou la barre de navigation -->
 <?php
 include('server.php');
 ?>

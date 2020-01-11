@@ -1,3 +1,4 @@
+<!-- Script pour La Page Connexion (Log In) -->
 <!DOCTYPE html>
 <html>
 	<head>

@@ -1,3 +1,4 @@
+  <!-- Script pour la Page 2 Alpes  -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description : Située à l'extrémité sud du massif de Belledonne,
   Chamrousse est surtout connue comme une station de ski alpin (1 400 m-2 250 m) proche de Grenoble.
@@ -50,6 +51,7 @@ Nombre de Remontées : 20.
     <img class="image" src="img/prix_chamrousse.png" alt="Tarifs_forfait_chamrousse">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=19xO0W-rQ7zBh21P4TrreZdw669XrKA8k" width="1100" height="680"></iframe>
 
@@ -57,7 +59,7 @@ Nombre de Remontées : 20.
   <br>
 
   <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
   <?php
   if (isset($_SESSION['email'])) {
 

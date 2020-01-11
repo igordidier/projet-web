@@ -1,3 +1,4 @@
+<!-- Script pour la page De choix des Stations -->
 <!DOCTYPE html>
 
 <html lang="fr" dir="ltr">

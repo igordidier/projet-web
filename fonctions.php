@@ -1,4 +1,5 @@
-﻿<?php
+<!-- Script pou Connexion avec MYSQL -->
+<?php
 function valueInputType($name) {
     if (isset($_POST["$name"])) echo htmlspecialchars($_POST["$name"]);
     elseif (isset($_SESSION["$name"])) echo htmlspecialchars($_SESSION["$name"]);

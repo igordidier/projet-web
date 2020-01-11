@@ -1,3 +1,4 @@
+<!-- Script pour La page Profile (Page pour modifier son profil existant) -->
 <?php include('head.php'); ?>
 <?php
 

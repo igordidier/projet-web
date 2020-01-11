@@ -1,3 +1,4 @@
+  <!-- Script pour la Page 2 Alpes  -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Saint Pierre de Chartreuse, située à 1345m d’altitude en Isère, propose un domaine skiable de 35km. Nos lecteurs ont partagé 58 avis sur Saint Pierre de Chartreuse avec une note moyenne de 4,1.
   A 30 min de Grenoble, Chambéry et Voiron.
@@ -48,6 +49,7 @@ Nombre de Remontées : 10.
     <img class="image4" src="img/prix_stpierre.png" alt="Tarifs_forfait_saint Pierre">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1xvj0vl4U8xjjFL9p3bPWp3SnnwgBEpP4" width="1100" height="680"></iframe>
 
@@ -55,7 +57,7 @@ Nombre de Remontées : 10.
   <br>
 
   <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
   <?php
   if (isset($_SESSION['email'])) {
 

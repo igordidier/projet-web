@@ -1,3 +1,4 @@
+  <!-- Script pour la Page Alpe D'Huez -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+  <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description : Alpe d'Huez (prononcé [al.pə d‿ɥɛz]) est une station de sports d'hiver des Alpes située sur les anciens alpages du village d'Huez dans l'Isère à 59 km de Grenoble.
   Elle fait partie du massif des Grandes Rousses, au-dessus de l'Oisans.
@@ -49,13 +50,14 @@ Nombre de Remontées : 74.
     <img class="image2" src="img/prix_alpe.png" alt="Tarifs_forfait_alpe_d'huez">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1hGH86CYHrcjssr9axjABVdwi0EhjPtmv" width="1100" height="680"></iframe>
   <br>
   <br>
 
   <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
   <?php
   if (isset($_SESSION['email'])) {
 

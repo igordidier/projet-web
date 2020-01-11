@@ -1,3 +1,4 @@
+  <!-- Script pour la Page 2 Alpes  -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description : Les Deux Alpes est une station de sports d'hiver française située en Oisans, dans le massif des Écrins. Localisée dans le département de l’Isère et la région d’Auvergne-Rhône-Alpes,
   elle se trouve à 64 km au sud-est de Grenoble et est desservie pour ses clients étrangers par l'aéroport de Grenoble-Isère.
@@ -49,6 +50,7 @@ Nombre de Remontées : 51.
     <img class="image" src="img/prix_2alpes.png" alt="Tarifs_forfait_2Alpes">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1MV6_JHVXlzZfTb0_IfoDcQzd7kNFTmdA" width="1100" height="680"></iframe>
 
@@ -57,7 +59,7 @@ Nombre de Remontées : 51.
 <br>
 
 <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
 <?php
 if (isset($_SESSION['email'])) {
 

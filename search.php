@@ -1,3 +1,4 @@
+<!-- Script pour la page Search (Page abandonée) -->
 <?php include('head.php'); ?>
 
 <!DOCTYPE html>
