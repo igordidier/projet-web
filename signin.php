@@ -1,4 +1,4 @@
-
+<!-- Script pour la page Signin (Connexion) -->
  <!DOCTYPE html>
  <html lang="fr" dir="ltr">
    <head>

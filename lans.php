@@ -1,3 +1,4 @@
+  <!-- Script pour la Page Lans en Vercors  -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description : Lans en Vercors est l’une des principales portes d’entrée du Parc Naturel Régional du Vercors, ce qui fait de ce village traditionnel une destination familiale nichée dans une montagne accessible.
   Ce village de moyenne montagne a su conserver toute son authenticité. S’étageant entre 1000 et 1983m d’altitude,
@@ -48,6 +49,7 @@ Nombre de Remontées : 11.
     <img class="image2" src="img/prix_lans.png" alt="Tarifs_forfait_lans-en-vercors">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1bp0SWYWfJ12sXr3YhpnwfGqQW8dhyHDJ" width="1100" height="680"></iframe>
 
@@ -55,7 +57,7 @@ Nombre de Remontées : 11.
   <br>
 
   <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
   <?php
   if (isset($_SESSION['email'])) {
 

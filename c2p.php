@@ -1,3 +1,4 @@
+  <!-- Script pour la Page Col de Porte  -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description : Le col de Porte à 1 326 m d'altitude est le point haut le plus méridional de la longue dépression « des trois cols »,
   ouverte sur toute la longueur du massif, du nord au sud, dans les marnes de Narbonne de la Chartreuse orientale.
@@ -51,6 +52,7 @@ Nombre de Remontées : 5.
     <img class="image3" src="img/prix_c2p.png" alt="Tarifs_forfait_Col2Porte">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1qifE6UUO6xn_pE62bZsb5h848OlwyJK4" width="1100" height="680"></iframe>
 
@@ -58,7 +60,7 @@ Nombre de Remontées : 5.
   <br>
 
   <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
   <?php
   if (isset($_SESSION['email'])) {
 

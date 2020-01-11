@@ -1,3 +1,4 @@
+-- Script pour la création de la base de données SQL
 -- phpMyAdmin SQL Dump
 -- version 4.8.5
 -- https://www.phpmyadmin.net/

@@ -1,3 +1,4 @@
+<!-- Script pour insérer et/ou modifier des données dans la base -->
 <?php
 
 session_start();
@@ -56,7 +57,7 @@ if (isset($_POST['modifier_compte'])) {
               MDP='" . sha1($_POST['mdp']) . "'
               where EMAIL = '" . $_SESSION['email'] . "' ";
 
-        
+
           $connexion = connexionSQL();
           $res = executerRequete($connexion, $requete);
 

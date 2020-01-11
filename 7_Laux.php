@@ -1,3 +1,4 @@
+  <!-- Script pour la Page 7 Laux -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description: Les Sept Laux est un groupe de trois stations de sport d'hiver des Alpes situé dans la chaîne de Belledonne (Isère) à 35 km environ de Grenoble et 50 km de Chambéry sur les communes de Theys, des Adrets et de La Ferrière.
   Les Sept Laux comportent deux stations côté vallée de l'Isère (Prapoutel et Pipay) et une (Le Pleynet) de l'autre côté du massif, qui sont toutes exploitées par la SEMT7L. La station peut accueillir jusqu'à 15 000 skieurs par jour et est le plus grand domaine skiable de la Chaine de Belledonne.
@@ -49,7 +50,7 @@ Nombre de Remontées : 22.
     <img class="image" src="img/prix_7laux.png" alt="Tarifs_forfait_7laux">
 
   </div>
-
+  <!-- Map personalisée -->
   <p class="texte_description"> Localisation de la Station (Google Maps): </p>
     <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=1edAAWFPsZH_KGz0RD6sh9UEIKWk_jg4W" width="1100" height="680"></iframe>
 </div>
@@ -58,7 +59,7 @@ Nombre de Remontées : 22.
 <br>
 
 <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
 <?php
 if (isset($_SESSION['email'])) {
 

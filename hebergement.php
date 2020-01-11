@@ -1,3 +1,4 @@
+<!-- Script pour la Page Hebergements -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>

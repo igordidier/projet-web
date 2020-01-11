@@ -1,3 +1,4 @@
+  <!-- Script pour la Page Col de Porte  -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
@@ -7,7 +8,7 @@
     <link rel="shortcut icon" href="fav.jpg">
   </head>
   <body>
-
+    <!-- Intégration de la barre de navigation -->
 <?php include('head.php'); ?>
 
 <div class="texte">
@@ -30,7 +31,7 @@
   </a>
 
 </div>
-
+  <!-- Mini - Description -->
 <p class="texte_description">
   Description : La station de ski alpin Autrans Méaudre en Vercors regroupe 2 domaines alpins reliés par une navette gratuite.
 Le domaine alpin de Méaudre vous accueille au coeur du village avec ses 18km de pistes et un domaine débutant accessible à tous.
@@ -48,6 +49,7 @@ Nombre de Remontées : 9.
     <img class="image2" src="img/prix_meaudre.png" alt="Tarifs_forfait_meaudre">
 
   </div>
+  <!-- Map personalisée -->
 <p class="texte_description"> Localisation de la Station (Google Maps): </p>
   <iframe class="carte" src="https://www.google.com/maps/d/embed?mid=12fxmunp1BYuQcHTsE1QtLTKfHqvFhMsq" width="1100" height="680"></iframe>
 
@@ -55,7 +57,7 @@ Nombre de Remontées : 9.
   <br>
 
   <h1>Laissez un avis sur la station</h1>
-
+  <!-- Intégration formulaire Php pour les commentaires -->
   <?php
   if (isset($_SESSION['email'])) {
 

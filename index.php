@@ -1,3 +1,4 @@
+<!-- Script Page d'acceuil Index -->
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
