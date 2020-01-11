@@ -45,7 +45,7 @@ Nombre de Remontées : 5.
 </p>
 
 <p class="texte_description">
-  Tarifs des differents forfaits disponibles : ↓↓↓ (Source : <a href="https://www.ski-alpin-chartreuse.com/tarifs" target="_blank"> https://www.saint_pierre.com</a>)
+  Tarifs des differents forfaits disponibles : ↓↓↓ (Source : <a href="http://www.coldeporte.fr/" target="_blank"> http://www.coldeporte.fr/</a>)
 </p>
 
 <div class="image3">
